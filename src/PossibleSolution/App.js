@@ -25,7 +25,7 @@ class App extends Component {
   };
 
   /*
-  If you do not an arrow function here, you'd need to bind `this`. In arrow
+  If you do not use an arrow function here, you'd need to bind `this`. In arrow
   function, `this` refers to the enclosing execution context:
   https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions#Lexical_this.
   If you wrote the `handleAnswer` function like this (in ES5):
